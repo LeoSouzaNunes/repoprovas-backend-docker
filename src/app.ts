@@ -10,5 +10,6 @@ app.use(json());
 app.use(cors());
 app.use(router);
 app.use(errorHandlerMiddleware);
+//alteração
 
 export default app;
